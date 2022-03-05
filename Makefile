@@ -35,8 +35,4 @@ pmessage:
 	@echo "This software is in alpha stage so, it is full of bugs"
 	@echo "so, Enjoy :) at your own Risk!"
 clean:
-	rm -rf *.*
-	@mkdir www
-	@cd www
-	@wget "https://raw.githubusercontent.com/0xAshutosh/ArnoldServer-SamplePages/main/index.html"
-	@wget "https://raw.githubusercontent.com/0xAshutosh/ArnoldServer-SamplePages/main/test.html"
+	@bash fetch.sh
