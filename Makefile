@@ -36,5 +36,7 @@ pmessage:
 	@echo "so, Enjoy :) at your own Risk!"
 clean:
 	rm -rf *.*
-	@cd $(VAR)
 	@mkdir www
+	@cd www
+	@wget "https://raw.githubusercontent.com/0xAshutosh/ArnoldServer-SamplePages/main/index.html"
+	@wget "https://raw.githubusercontent.com/0xAshutosh/ArnoldServer-SamplePages/main/test.html"
