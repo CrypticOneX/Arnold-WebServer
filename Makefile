@@ -35,4 +35,4 @@ pmessage:
 	@echo "This software is in alpha stage so, it is full of bugs"
 	@echo "so, Enjoy :) at your own Risk!"
 clean:
-	@bash fetch.sh
+	@sh fetch.sh
